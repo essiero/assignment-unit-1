@@ -11,11 +11,12 @@ mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 'ls' is the command to list the files in a folder; if a folder is empty, it will just show your location.
 # 6 - What is a quick way to create a new file?
-
+touch [name].[documenttype]
 # 7 - Run 'git --version' in your terminal. What is the output?
 git version 2.39.2 (Apple Git-143)
 # 8 - Why would you run the command 'git status'?
-
+'git status' tells you if the changes you have made in VS Code have been saved to your staging area since the last time you used the 'git add .' command.
 # 9 - What does the command 'git add .' do?
-
+'git add .' saves all of the changes you've made in VS Code to your staging area. 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin main
